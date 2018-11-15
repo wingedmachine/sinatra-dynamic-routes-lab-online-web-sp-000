@@ -5,12 +5,15 @@ class App < Sinatra::Base
     "#{params[:name].reverse}"
   end
 
-  get '/reversename/:name' do
+  get '/square/:number' do
   end
 
-  get '/reversename/:name' do
+  get '/say/:number/:phrase' do
   end
 
-  get '/reversename/:name' do
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
+  end
+
+  get '/:operation/:number1/:number2' do
   end
 end
